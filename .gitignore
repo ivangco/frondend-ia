@@ -41,11 +41,6 @@ android/build/
 android/app/build/
 ios/build/
 
-# Ignorar archivos de TypeScript build
-*.js
-!frontend/babel.config.js # No ignores babel.config.js si lo usas
-!backend/src/**/*.js # Si transpilas TS a JS en backend, no ignores los JS de src
-
 # Ignorar archivos de pruebas/snapshots
 __snapshots__/
 *.snap
